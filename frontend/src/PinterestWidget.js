@@ -42,11 +42,6 @@ class PinterestWidget extends Component {
 
     return (
         <div>
-        <h1>PINTEREST</h1>
-
-      <TextField id="outlined-basic" label="Pinterest Name" variant="outlined" />
-
-
         <a href="https://www.pinterest.com/rodalexiou/"
             data-pin-do="embedUser"
             data-pin-board-width="700"

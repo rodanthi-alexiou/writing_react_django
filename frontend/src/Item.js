@@ -1,13 +1,18 @@
-import './layout.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+  } from "react-router-dom";
+  import './layout.css';
   
   
   
-  function Story() {
+  function Item() {
     return (
       <body>
   
                     <div class="topnav">
-                    <a href="/">Home</a>
+                    <a >Profile</a>
                     <a >Friends</a>
                     <a >Relax</a>
                   </div>
@@ -39,8 +44,8 @@ import './layout.css';
                     <div class="rightcolumn">
                       <div class="card">
                         <h2>Name</h2>
-                        <h5>Type of Story: Book/Idea/Short Story</h5>
-                        <p>Vibe</p>
+                        <h5>Type of Art</h5>
+                        <p>Description</p>
                       </div>
                       <div class="card">
                         <h3>Similar</h3>
@@ -58,5 +63,5 @@ import './layout.css';
     );
   }
   
-  export default Story;
+  export default Item;
   

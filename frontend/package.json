@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@azure/storage-blob": "^12.6.0",
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -12,6 +13,7 @@
     "react-pinterest": "^1.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "simple-git": "^2.41.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

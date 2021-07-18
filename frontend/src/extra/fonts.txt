@@ -1,0 +1,5 @@
+'Otomanopee One', sans-serif
+
+'Yomogi', cursive
+
+'Indie Flower', cursive;
