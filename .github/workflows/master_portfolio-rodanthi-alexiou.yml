@@ -21,7 +21,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '14.x'
+        node-version: '14.15'
 
     - name: npm install, build, and test
       run: |
@@ -35,5 +35,6 @@ jobs:
         app-name: portfolio-rodanthi-alexiou
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3DD9EFE0720548A99FC1D9F1CF66DEBE }}
-        package: .
+        package: ./portfolio/frontend/src/
+
 
